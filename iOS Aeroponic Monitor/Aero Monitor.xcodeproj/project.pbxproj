@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D727A31B1F1927160014E1BD /* SensorSettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727A31A1F1927160014E1BD /* SensorSettingsTableViewController.swift */; };
+		D727A31E1F195F2F0014E1BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D727A31C1F195F2F0014E1BD /* Main.storyboard */; };
+		D727A3201F196CB60014E1BD /* AbstractPeripheralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D727A31F1F196CB60014E1BD /* AbstractPeripheralViewController.swift */; };
+		D72985501EFB20600061EBF7 /* ControllerDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D729854F1EFB20600061EBF7 /* ControllerDetailTableViewController.swift */; };
+		D72A0BA81F104F5000DE650E /* DeviceSettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72A0BA71F104F5000DE650E /* DeviceSettingsTableViewController.swift */; };
+		D7A0CF0D1EE600B300C55797 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A0CF0C1EE600B300C55797 /* AppDelegate.swift */; };
+		D7A0CF0F1EE600B300C55797 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A0CF0E1EE600B300C55797 /* ViewController.swift */; };
+		D7A0CF141EE600B300C55797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A0CF131EE600B300C55797 /* Assets.xcassets */; };
+		D7A0CF171EE600B300C55797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A0CF151EE600B300C55797 /* LaunchScreen.storyboard */; };
+		D7A0CF201EE600D300C55797 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A0CF1F1EE600D300C55797 /* CoreBluetooth.framework */; };
+		D7A0CF231EE6016E00C55797 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A0CF221EE6016E00C55797 /* BLEManager.swift */; };
+		D7A0CF251EE75D4200C55797 /* BLEPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A0CF241EE75D4200C55797 /* BLEPeripheral.swift */; };
+		D7C4BED41F0EE89000465D29 /* DeviceInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C4BED31F0EE89000465D29 /* DeviceInfoController.swift */; };
+		D7CD66C91F16D6B10020A5B1 /* SensorPinSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CD66C81F16D6B10020A5B1 /* SensorPinSettingsViewController.swift */; };
+		D7D252421EE85F92000A130C /* BLEService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D252411EE85F92000A130C /* BLEService.swift */; };
+		D7D252441EE87E30000A130C /* BLECharacteristic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D252431EE87E30000A130C /* BLECharacteristic.swift */; };
+		D7FAD51A1F04692200FBBF4A /* UIView+ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FAD5191F04692200FBBF4A /* UIView+ActivityIndicator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D727A31A1F1927160014E1BD /* SensorSettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorSettingsTableViewController.swift; sourceTree = "<group>"; };
+		D727A31D1F195F2F0014E1BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D727A31F1F196CB60014E1BD /* AbstractPeripheralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractPeripheralViewController.swift; sourceTree = "<group>"; };
+		D729854F1EFB20600061EBF7 /* ControllerDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerDetailTableViewController.swift; sourceTree = "<group>"; };
+		D72A0BA71F104F5000DE650E /* DeviceSettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceSettingsTableViewController.swift; sourceTree = "<group>"; };
+		D7A0CF091EE600B300C55797 /* Aero Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aero Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A0CF0C1EE600B300C55797 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7A0CF0E1EE600B300C55797 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7A0CF131EE600B300C55797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7A0CF161EE600B300C55797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7A0CF181EE600B300C55797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A0CF1F1EE600D300C55797 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		D7A0CF221EE6016E00C55797 /* BLEManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		D7A0CF241EE75D4200C55797 /* BLEPeripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEPeripheral.swift; sourceTree = "<group>"; };
+		D7C4BED31F0EE89000465D29 /* DeviceInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInfoController.swift; sourceTree = "<group>"; };
+		D7CD66C81F16D6B10020A5B1 /* SensorPinSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorPinSettingsViewController.swift; sourceTree = "<group>"; };
+		D7D252411EE85F92000A130C /* BLEService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEService.swift; sourceTree = "<group>"; };
+		D7D252431EE87E30000A130C /* BLECharacteristic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLECharacteristic.swift; sourceTree = "<group>"; };
+		D7FAD5191F04692200FBBF4A /* UIView+ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ActivityIndicator.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7A0CF061EE600B300C55797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A0CF201EE600D300C55797 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7A0CF001EE600B300C55797 = {
+			isa = PBXGroup;
+			children = (
+				D7A0CF0B1EE600B300C55797 /* Aero Monitor */,
+				D7A0CF0A1EE600B300C55797 /* Products */,
+				D7A0CF1E1EE600D200C55797 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7A0CF0A1EE600B300C55797 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7A0CF091EE600B300C55797 /* Aero Monitor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7A0CF0B1EE600B300C55797 /* Aero Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				D7A0CF211EE6012C00C55797 /* BlueTooth */,
+				D7A0CF0C1EE600B300C55797 /* AppDelegate.swift */,
+				D727A31F1F196CB60014E1BD /* AbstractPeripheralViewController.swift */,
+				D7A0CF0E1EE600B300C55797 /* ViewController.swift */,
+				D7C4BED31F0EE89000465D29 /* DeviceInfoController.swift */,
+				D729854F1EFB20600061EBF7 /* ControllerDetailTableViewController.swift */,
+				D72A0BA71F104F5000DE650E /* DeviceSettingsTableViewController.swift */,
+				D7CD66C81F16D6B10020A5B1 /* SensorPinSettingsViewController.swift */,
+				D727A31A1F1927160014E1BD /* SensorSettingsTableViewController.swift */,
+				D7FAD5191F04692200FBBF4A /* UIView+ActivityIndicator.swift */,
+				D7A0CF131EE600B300C55797 /* Assets.xcassets */,
+				D7A0CF151EE600B300C55797 /* LaunchScreen.storyboard */,
+				D727A31C1F195F2F0014E1BD /* Main.storyboard */,
+				D7A0CF181EE600B300C55797 /* Info.plist */,
+			);
+			path = "Aero Monitor";
+			sourceTree = "<group>";
+		};
+		D7A0CF1E1EE600D200C55797 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7A0CF1F1EE600D300C55797 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7A0CF211EE6012C00C55797 /* BlueTooth */ = {
+			isa = PBXGroup;
+			children = (
+				D7A0CF221EE6016E00C55797 /* BLEManager.swift */,
+				D7A0CF241EE75D4200C55797 /* BLEPeripheral.swift */,
+				D7D252411EE85F92000A130C /* BLEService.swift */,
+				D7D252431EE87E30000A130C /* BLECharacteristic.swift */,
+			);
+			path = BlueTooth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7A0CF081EE600B300C55797 /* Aero Monitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A0CF1B1EE600B300C55797 /* Build configuration list for PBXNativeTarget "Aero Monitor" */;
+			buildPhases = (
+				D7A0CF051EE600B300C55797 /* Sources */,
+				D7A0CF061EE600B300C55797 /* Frameworks */,
+				D7A0CF071EE600B300C55797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aero Monitor";
+			productName = "Aero Monitor";
+			productReference = D7A0CF091EE600B300C55797 /* Aero Monitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7A0CF011EE600B300C55797 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "DoodleBytes Development";
+				TargetAttributes = {
+					D7A0CF081EE600B300C55797 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = V78WBXT4VY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D7A0CF041EE600B300C55797 /* Build configuration list for PBXProject "Aero Monitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7A0CF001EE600B300C55797;
+			productRefGroup = D7A0CF0A1EE600B300C55797 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7A0CF081EE600B300C55797 /* Aero Monitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7A0CF071EE600B300C55797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D727A31E1F195F2F0014E1BD /* Main.storyboard in Resources */,
+				D7A0CF171EE600B300C55797 /* LaunchScreen.storyboard in Resources */,
+				D7A0CF141EE600B300C55797 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7A0CF051EE600B300C55797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A0CF0F1EE600B300C55797 /* ViewController.swift in Sources */,
+				D72985501EFB20600061EBF7 /* ControllerDetailTableViewController.swift in Sources */,
+				D7D252421EE85F92000A130C /* BLEService.swift in Sources */,
+				D7A0CF251EE75D4200C55797 /* BLEPeripheral.swift in Sources */,
+				D727A31B1F1927160014E1BD /* SensorSettingsTableViewController.swift in Sources */,
+				D7A0CF231EE6016E00C55797 /* BLEManager.swift in Sources */,
+				D7D252441EE87E30000A130C /* BLECharacteristic.swift in Sources */,
+				D7A0CF0D1EE600B300C55797 /* AppDelegate.swift in Sources */,
+				D7C4BED41F0EE89000465D29 /* DeviceInfoController.swift in Sources */,
+				D72A0BA81F104F5000DE650E /* DeviceSettingsTableViewController.swift in Sources */,
+				D7FAD51A1F04692200FBBF4A /* UIView+ActivityIndicator.swift in Sources */,
+				D7CD66C91F16D6B10020A5B1 /* SensorPinSettingsViewController.swift in Sources */,
+				D727A3201F196CB60014E1BD /* AbstractPeripheralViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D727A31C1F195F2F0014E1BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D727A31D1F195F2F0014E1BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7A0CF151EE600B300C55797 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7A0CF161EE600B300C55797 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7A0CF191EE600B300C55797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7A0CF1A1EE600B300C55797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7A0CF1C1EE600B300C55797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V78WBXT4VY;
+				INFOPLIST_FILE = "Aero Monitor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.doodlebytes.Aero-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D7A0CF1D1EE600B300C55797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V78WBXT4VY;
+				INFOPLIST_FILE = "Aero Monitor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.doodlebytes.Aero-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7A0CF041EE600B300C55797 /* Build configuration list for PBXProject "Aero Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A0CF191EE600B300C55797 /* Debug */,
+				D7A0CF1A1EE600B300C55797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7A0CF1B1EE600B300C55797 /* Build configuration list for PBXNativeTarget "Aero Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A0CF1C1EE600B300C55797 /* Debug */,
+				D7A0CF1D1EE600B300C55797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7A0CF011EE600B300C55797 /* Project object */;
+}
